@@ -66,8 +66,15 @@ body {
 
 .banner a {
     text-decoration: none;
+   
 
 
+}
+
+
+a{
+    color:black;
+    font-size:12px;
 }
 
 .banner_btn {
@@ -134,6 +141,7 @@ body {
     font-size: 10px;
     width: 120px;
     height: 40px;
+  
     background-color: #FF0000;
     padding: 10px;
     border-radius: 5px;
@@ -149,6 +157,7 @@ body {
     height: 40px;
     background-color: #FF0000;
     padding: 10px;
+    
     border-radius: 5px;
     margin: 5px;
     color: white;
@@ -158,6 +167,7 @@ body {
 
 button a {
     text-decoration: none;
+
 }
 
 .boxs {
@@ -265,6 +275,23 @@ hr {
 
 
 }
+
+@keyframes animation {
+    0%   {background-color: red;}
+  25%  {background-color: rgba(255, 255, 0, 0.541);}
+  50%  {background-color: rgba(0, 0, 255, 0.507);}
+  100% {background-color: rgba(0, 128, 0, 0.404);}
+  }
+  .animation:hover{
+    animation-name:animation;
+  }
+  .banner_container{
+    
+    background-color: rgb(32, 33, 36);
+    animation-name: animation ;
+    animation-duration: 5s;
+  }  
+  
 
 
 /* diffrent view */
